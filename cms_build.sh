@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+module purge
 module use /g/data/hh5/public/modules
 module load netcdf/4.7.4 
 module load intel-compiler/2020.1.217 
