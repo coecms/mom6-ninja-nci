@@ -11,7 +11,8 @@ cd /scratch/$PROJECT/$USER
 
 echo "Download source code and build scripts"
 git clone --recursive https://github.com/NOAA-GFDL/MOM6-examples.git MOM6-examples
-git clone --single-branch -b cms git@github.com:coecms/mom6-ninja-nci.git
+
+cd mom6-ninja-nci.git
 
 echo "Configure build scripts"
 cd mom6-ninja-nci

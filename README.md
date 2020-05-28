@@ -1,3 +1,17 @@
+# Gadi build script
+
+This is a fork of [Angus' repository](https://github.com/angus-g/mom6-ninja-nci) with a 
+simple gadi specific build script.
+
+To build ocean-only MOM6 on NCI:
+
+```bash
+cd /scratch/$PROJECT/$USER
+git clone cms git@github.com:coecms/mom6-ninja-nci.git
+cd mom6-ninja-nci
+./cms_build.sh
+```
+
 # mom6-ninja-nci
 Painless shell scripts to set up a ninja build of MOM6 on NCI with Intel compilers. As prerequisites, I recommend you have the latest `intel-compiler` module loaded, `netcdf`, and a modern version of OpenMPI (4.0.x).
 
