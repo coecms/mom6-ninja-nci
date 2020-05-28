@@ -1,6 +1,6 @@
 #!/bin/bash
 
-srcdir=
+srcdir=/scratch/$PROJECT/$USER/MOM6-examples/src
 
 if [[ -z "$srcdir" ]]; then
     printf "Set your source directory in gen_build.sh!\n"
