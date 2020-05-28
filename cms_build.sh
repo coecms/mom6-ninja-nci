@@ -3,7 +3,7 @@
 module use /g/data/hh5/public/modules
 module load netcdf/4.7.4 
 module load intel-compiler/2020.1.217 
-module load conda/analysis3-20.04(analysis3-unstable) 
+module load conda/analysis3-unstable
 module load openmpi/4.0.2(default)
 
 echo "Change directory to scratch"
