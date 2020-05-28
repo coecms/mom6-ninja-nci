@@ -11,6 +11,7 @@ git clone git@github.com:coecms/mom6-ninja-nci.git
 cd mom6-ninja-nci
 ./cms_build.sh
 ```
+When this completes (it takes a few minutes) there should be a MOM6 executable at `ocean_only_symmetric/MOM6`
 
 # mom6-ninja-nci
 Painless shell scripts to set up a ninja build of MOM6 on NCI with Intel compilers. As prerequisites, I recommend you have the latest `intel-compiler` module loaded, `netcdf`, and a modern version of OpenMPI (4.0.x).
