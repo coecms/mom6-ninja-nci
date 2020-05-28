@@ -7,7 +7,7 @@ To build ocean-only MOM6 on NCI:
 
 ```bash
 cd /scratch/$PROJECT/$USER
-git clone cms git@github.com:coecms/mom6-ninja-nci.git
+git clone git@github.com:coecms/mom6-ninja-nci.git
 cd mom6-ninja-nci
 ./cms_build.sh
 ```
